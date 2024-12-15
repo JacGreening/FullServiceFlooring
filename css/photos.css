@@ -1,4 +1,4 @@
-img
+.image img
     {
         height: 385px;
         box-shadow: 15px 15px 15px rgba(28, 27, 27, 0.468);
@@ -9,6 +9,14 @@ h2
         text-align: center;
         color: #0F3A66;
         padding-top: 100px;
+    }
+
+h3
+    {
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    color:#543913;
+    text-align: center;
+    font-size: larger;
     }
 h4
     {
@@ -41,11 +49,87 @@ h4
         width:75vw;
         justify-items: center;
     }
-
+.twoContainer
+{
+    padding-top:15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items:center;
+    width:75vw;
+    justify-items: center;
+}
 
     .photos
         {
             align-self: center;
         }
-    
+.textContainer
+{
+    width: 70%;
+    text-wrap: wrap;
+    text-align: center;
+    justify-self: center;
+    padding-bottom: 15px;
+}
+
+/*SMALL SCREEN */
+@media (max-width: 480px) 
+{
+    .photoContainer 
+    {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .footer {
+        grid-template-columns: 1fr; 
+        justify-items: center;
+    }
+    .footer-items
+    {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        }
+   .oddContainer
+   {
+        grid-template-columns: 1fr;
+        justify-items: center;
+   }
+   .twoContainer
+   {
+       grid-template-columns:1fr;   
+   }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 1000px) {
+    .photoContainer {
+        grid-template-columns:1fr;
+        justify-items: center;
+    }
+    .photos
+    {
+        padding:10px
+    }
+    .footer {
+        grid-template-columns: 1fr; 
+        justify-items: center;
+    }
+    .footer-items
+    {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        }
+    .oddContainer
+        {
+            grid-template-columns: 1fr;
+            padding-bottom: 50px; 
+        }
+    .twoContainer
+    {
+        grid-template-columns:1fr;   
+    }
+}
 

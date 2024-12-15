@@ -1,0 +1,73 @@
+/*COlORS
+Background: White - #f5f5f5;
+Dark blue: #0F3A66;  The hex version of rgb(15, 58, 102)
+Navbar: light blue - #b3dbf4;
+off-white: #efeeee;
+tan: #ac9484;
+brown: #52331d; 
+*/
+
+.heading {
+    color: #52331d;
+    padding: 20px;
+    margin: 20px;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+section {
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    min-height: 20vh;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+#photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#photos > img {
+    flex-shrink: 0;
+    height: 350px;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 700px) {
+    #photos {
+        grid-template-columns: 1fr;
+    }
+
+    #lists {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+    #photos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #lists {
+        grid-template-columns: 1fr 1fr;
+    }
+}

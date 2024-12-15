@@ -1,0 +1,78 @@
+/*COlORS
+Background: White - #f5f5f5;
+Dark blue: #0F3A66;  The hex version of rgb(15, 58, 102)
+Navbar: light blue - #b3dbf4;
+off-white: #efeeee;
+tan: #ac9484;
+brown: #52331d; 
+*/
+
+/* first section: Location */
+#location {
+    margin: 15px;
+    padding: 0px;
+    left: 50%;
+    right: 50%;
+}
+
+/* the content within the Location section */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+}
+
+/* Google map */
+iframe {
+    padding: 15px;
+    height: 300px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+/* list within the Location content */
+ul {
+    padding-left: 50px;
+}
+
+/* list elements within the Location content */
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: large;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+}
+
+@media (max-width: 1000px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 0px;
+        position: relative;
+        width: 100%;
+    }
+
+    iframe {
+        align-self: center;
+    }
+}
