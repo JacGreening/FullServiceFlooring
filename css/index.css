@@ -23,11 +23,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background: #6f6f6f;
-    margin: 10px;
+    background: #e4e3e3;
+    margin: 25px;
     text-align: center;
     border-radius: 13px;
     height:600px;
+    box-shadow:15px 15px 15px rgba(118, 117, 117, 0.468);
     }
     
 img
@@ -50,6 +51,7 @@ h3
     color:#543913;
     font-size: larger;
     padding-bottom: 20px;
+    padding-top: 20px;
     }
 
     button {
