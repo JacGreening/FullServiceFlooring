@@ -31,22 +31,10 @@ h2 {
     margin-top: 1%;
 }
 
-
-/*SMALL SCREEN*/
-@media (max-width: 480px) {
-    .textImg
-        {
-            grid-template-columns: 1fr;
-            padding-bottom: 50px; 
-        }
-
-}
-
-/*MED SCREEN */
-@media (min-width: 481px) and (max-width: 1000px) {
-    .textImg
-        {
-            grid-template-columns: 1fr;
-            padding-bottom: 50px; 
-        }
+/*SMALL SCREEN */
+@media (max-width: 500px) {
+    img
+    {
+       height: 75px;
+    }
 }

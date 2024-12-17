@@ -1,4 +1,5 @@
 /*INDIVIDUAL CSS FOR INDEX*/
+
 .services {
     background: #efeeee;
 }
@@ -64,4 +65,22 @@ h3
         font-size: 18px;
         padding: 5px;
         z-index: 100; 
+}
+
+/*SMALL SCREEN */
+@media (max-width: 500px) {
+    .flex-container
+    {
+        flex-direction: column;
+    }
+    .flex-box
+    {
+        margin-inline: 7px;
+        padding-bottom: 20px;
+    }
+    .p
+    {
+        padding-inline: 15px;
+    }
+
 }
