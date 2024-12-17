@@ -22,6 +22,7 @@ header * {
 {
     display: grid;
     width:100%;
+    padding-inline: 50px;
     grid-template-columns:1fr;
     gap: 0;
 }
@@ -58,7 +59,7 @@ body
 
  .textImg
     {
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding-inline: 80px;
     display: grid;
     margin: auto;
@@ -300,11 +301,11 @@ a.link_decoration {
     .grid-container {
         grid-template-columns: 1fr;
         justify-items: center;
-        width: 100%;
     }
     .header 
     {
-        background-image: none;
+        background-image: none !important;
+        
     }
     .footer {
         grid-template-columns: 1fr; 

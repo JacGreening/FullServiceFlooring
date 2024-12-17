@@ -173,7 +173,7 @@ brown: #52331d;
 /* Medium Devices (Tablets, Small Desktops) */
 @media (max-width: 991px) {
     .section {
-        padding: 10rem 3% 2rem; /* Adjust padding */
+        padding: 10rem 10% 5rem; /* Adjust padding */
     }
 
     .services {
@@ -182,5 +182,10 @@ brown: #52331d;
 
     .services-container {
         grid-template-columns: repeat(1, 1fr); /* One column on smaller devices */
+    }
+
+    .services-info p {
+        color: #0F3A66;
+        font-size:small;
     }
 }
