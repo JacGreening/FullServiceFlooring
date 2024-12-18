@@ -58,7 +58,8 @@ td
 }
     
 /*SMALL SCREEN */
-@media (max-width: 1000px) {
+@media (max-width: 500px) /*1000*/
+{
     .headerSpace
     {
         padding-top: 50px;

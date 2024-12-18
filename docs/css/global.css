@@ -378,7 +378,8 @@ a.link_decoration {
 }
 
 /*LARGE SCREEN */
-@media (min-width: 1000px) {
+@media (min-width: 1001px)/*1000*/
+ {
 
     header
     {

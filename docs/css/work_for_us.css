@@ -57,7 +57,8 @@ ul {
     padding-top: 0px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) /*700*/
+{
     #photos {
         grid-template-columns: 1fr;
     }
@@ -72,7 +73,8 @@ ul {
 }
 }
 
-@media (min-width: 701px) and (max-width: 1000px) {
+@media (min-width: 501px) and (max-width: 1000px) /*701*/
+{
     #photos {
         grid-template-columns: 1fr 1fr;
     }

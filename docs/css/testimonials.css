@@ -78,7 +78,7 @@ brown: #52331d;
     padding-top: 0px;
 }
 
-@media (max-width: 1000px)
+@media (max-width: 501px)
 {
     .headerSpace
 {
