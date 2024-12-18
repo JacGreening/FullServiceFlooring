@@ -85,10 +85,11 @@ h3
     {
         flex-direction: column;
         justify-items: center;
+        margin:auto;
     }
     .flex-box
     {
-        margin-inline: 7px;
+        margin-inline: auto;
         padding-bottom: 20px;
     }
     .p
