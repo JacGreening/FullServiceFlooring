@@ -52,6 +52,11 @@ ul {
     grid-template-columns: 1fr 1fr;
 }
 
+.headerSpace
+{
+    padding-top: 0px;
+}
+
 @media (max-width: 700px) {
     #photos {
         grid-template-columns: 1fr;
@@ -60,6 +65,11 @@ ul {
     #lists {
         grid-template-columns: 1fr;
     }
+
+    .headerSpace
+{
+    padding-top: 50px;
+}
 }
 
 @media (min-width: 701px) and (max-width: 1000px) {

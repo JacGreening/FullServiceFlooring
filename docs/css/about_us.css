@@ -32,13 +32,15 @@ h2 {
 
 .textCont
 {
-    width: 50%;
+    width: 100%;
 }
 
 .photo
 {
    padding-top: 25px;
-   width: 425px;
+   width: 400px;
+   height:auto;
+   padding-left: 50px;
 }
 
 .headerSpace
@@ -55,9 +57,10 @@ h2 {
 {
     .photo
     {
-        width: 275px;
-        height: auto;
-       justify-self: center;
+    width: 275px;
+    height: auto;
+    justify-self: center;
+    padding-left: 0px;
     }
     .textCont
     {

@@ -152,6 +152,11 @@ brown: #52331d;
     color: inherit; /* Keep the text color consistent */
 }
 
+.headerSpace
+{
+    padding-top: 0px;
+}
+
 
 /*--MEDIA--*/
 .services-container {
@@ -187,5 +192,10 @@ brown: #52331d;
     .services-info p {
         color: #0F3A66;
         font-size:small;
+    }
+
+    .headerSpace
+    {
+        padding-top: 50px;
     }
 }

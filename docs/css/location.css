@@ -61,6 +61,11 @@ section {
 
 }
 
+.headerSpace
+{
+    padding-top: 0px;
+}
+
 @media (max-width: 1000px) {
     .content {
         display: flex;
@@ -74,5 +79,12 @@ section {
 
     iframe {
         align-self: center;
+        width:325px
     }
+
+    .headerSpace
+{
+    padding-top: 50px;
+}
+
 }

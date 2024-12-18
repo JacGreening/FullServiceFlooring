@@ -73,3 +73,16 @@ brown: #52331d;
     padding-bottom: 20px;
 }
 
+.headerSpace
+{
+    padding-top: 0px;
+}
+
+@media (max-width: 1000px)
+{
+    .headerSpace
+{
+    padding-top: 50px;
+}
+
+}
