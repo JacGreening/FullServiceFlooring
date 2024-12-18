@@ -67,11 +67,24 @@ h3
         z-index: 100; 
 }
 
+.headerSpace
+{
+    padding-top: 0px;
+}
+.servicesOffered
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
 /*SMALL SCREEN */
 @media (max-width: 500px) {
     .flex-container
     {
         flex-direction: column;
+        justify-items: center;
     }
     .flex-box
     {
@@ -81,6 +94,11 @@ h3
     .p
     {
         padding-inline: 15px;
+    }
+
+    .headerSpace
+    {
+        padding-top: 75px;
     }
 
 }

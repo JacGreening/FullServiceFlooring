@@ -91,19 +91,7 @@ section {
 
 
 /*HEADER AND NAVBAR*/
-header
-    {
-    background-image: url(../images/FSF-lightGrain.png); /* Set your image URL here */
-    background-size: cover; /* Ensure the image covers the entire element */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center;
-    
-    /* Set the height and add padding to prevent cropping */
-    min-height: 22vw; 
-    width: 100%;
-    overflow: hidden;
-    position:static;
-    }
+
 
 
 .menu_bar {
@@ -302,10 +290,9 @@ a.link_decoration {
         grid-template-columns: 1fr;
         justify-items: center;
     }
-    .header 
+    .header
     {
-        background-image: none !important;
-        
+        background-image: none;
     }
     .footer {
         grid-template-columns: 1fr; 
@@ -320,6 +307,7 @@ a.link_decoration {
         {
             grid-template-columns: 1fr;
             padding-inline: 20px;
+            justify-self:center ;
         }
     .carousel-images img {
             width: 300px;
@@ -342,8 +330,6 @@ a.link_decoration {
             display: flex;
             justify-content: center;
         }
-        
-
 }
 
 /*MED SCREEN */
@@ -352,7 +338,8 @@ a.link_decoration {
         grid-template-columns: 1fr;
         justify-items: center;
     }
-    .footer {
+    .footer 
+    {
         grid-template-columns: 1fr; 
         justify-items: center;
     }
@@ -363,6 +350,7 @@ a.link_decoration {
         }
     .textImg
         {
+            width: 100%;
             grid-template-columns: 1fr;
             padding-bottom: 50px; 
         }
@@ -375,11 +363,39 @@ a.link_decoration {
           .next {
             right: 55px; 
         }
+
+        header
+        {
+        background-image: url(../images/FSF-lightGrain.png); /* Set your image URL here */
+        background-size: cover; /* Ensure the image covers the entire element */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        background-position: center;
+        
+        /* Set the height and add padding to prevent cropping */
+        min-height: 22vw; 
+        width: 100%;
+        overflow: hidden;
+        position:static;
+        }
     
 }
 
 /*LARGE SCREEN */
 @media (min-width: 1000px) {
+
+    header
+    {
+    background-image: url(../images/FSF-lightGrain.png); /* Set your image URL here */
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+    
+    /* Set the height and add padding to prevent cropping */
+    min-height: 22vw; 
+    width: 100%;
+    overflow: hidden;
+    position:static;
+    }
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }

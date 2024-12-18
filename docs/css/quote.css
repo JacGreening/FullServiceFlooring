@@ -13,6 +13,9 @@ h3
         font-size: x-large;
         padding-top: 50px;
     }
+
+
+
 h2
     {
         padding-top: 50px;
@@ -28,8 +31,9 @@ h4
 table, th, td  
     {
         border-collapse: collapse;
-        justify-self: center;
         color: #0F3A66;
+        margin: auto;
+        justify-self: center;
     }
     
 td
@@ -44,4 +48,20 @@ td
 .seperatingLine
     {
         border-bottom: 2px #52331d dashed;
+        justify-self: center;
     }
+
+
+.headerSpace
+{
+    padding-top: 0px;
+}
+    
+/*SMALL SCREEN */
+@media (max-width: 500px) {
+    .headerSpace
+    {
+        padding-top: 75px;
+    }
+
+}

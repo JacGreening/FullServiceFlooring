@@ -1,0 +1,15 @@
+.headerSpace
+{
+    padding-top: 0px;
+}
+
+
+/*SMALL SCREEN */
+@media (max-width: 500px) {
+
+    .headerSpace
+    {
+        padding-top: 75px;
+    }
+
+}

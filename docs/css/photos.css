@@ -34,7 +34,7 @@ h4
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         justify-items:center;
-        width:100vw;
+        width:100%;
         margin-inline: auto;
     }
 
@@ -52,19 +52,17 @@ h4
 .twoContainer
 {
     padding-top:15px;
-    margin-left: auto;
-    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items:center;
-    width:75vw;
+    width:75%;
     justify-items: center;
 }
 
-    .photos
-        {
-            align-self: center;
-        }
+.photos
+    {
+    align-self: center
+    }
 .textContainer
 {
     width: 70%;
@@ -72,6 +70,11 @@ h4
     text-align: center;
     justify-self: center;
     padding-bottom: 15px;
+}
+
+.headerSpace
+{
+    padding-top: 0px;
 }
 
 /*SMALL SCREEN */
@@ -82,7 +85,7 @@ h4
         grid-template-columns: 1fr;
         justify-items: center;
         padding-bottom: 50px;
-
+        margin: auto;
     }
     .footer {
         grid-template-columns: 1fr; 
@@ -98,21 +101,38 @@ h4
         grid-template-columns: 1fr;
         justify-items: center;
         padding-bottom: 50px;
+        margin: auto;
+
    }
    .twoContainer
    {
-       grid-template-columns:1fr;   
+       grid-template-columns:1fr;  
+       justify-items: center; 
        padding-bottom: 50px;
-
+       margin: auto;
 }
 
 .textContainer
 {
     width: 100%;
-    margin: 0%;
+    margin: auto;
     padding-inline: 0%;
+    text-align: center;
 }
+
+.headerSpace
+{
+    padding-top: 75px;
+    text-align: center;
 }
+
+.image img
+    {
+        padding-top: 25px;
+    }
+}
+
+
 
 
 @media (min-width: 551) and (max-width: 1000px) {
